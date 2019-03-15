@@ -46,6 +46,11 @@ a:hover{
   color: grey;
 }
 
+ul{
+  list-style: square;
+  line-height: 30px;
+}
+
 .boxrow{
   width: 100%;
   margin: 0 auto;
