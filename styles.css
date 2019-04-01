@@ -80,3 +80,16 @@ ul{
 .logo{
   color: red;
 }
+
+video{
+  width: 100%;
+}
+
+image{
+  width: 100%;
+}
+.twoimages{
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 49%;
+}
