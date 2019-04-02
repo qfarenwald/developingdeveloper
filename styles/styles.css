@@ -1,0 +1,106 @@
+/*header q*/
+.logo{
+  color: red;
+}
+
+/*header 3 blocks*/
+.boxrow{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.boxred{
+  height: 10px;
+  width: 30px;
+  background-color: red;
+  float: left;
+}
+
+.boxgreen{
+  height: 10px;
+  width: 30px;
+  background-color: green;
+  float: left;
+}
+
+.boxblue{
+  height: 10px;
+  width: 30px;
+  background-color: blue;
+  float: left;
+}
+
+/*headings*/
+h1{
+  font-family: sans-serif;
+  text-align: right;
+  font-size: 60px;
+  margin-bottom: -10px;
+}
+
+h2{
+  font-family: sans-serif;
+  text-align: right;
+  font-size: 30px;
+}
+
+h3{
+  font-family: sans-serif;
+  font-size: 24px;
+}
+h4{
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: -10px;
+}
+
+.date{
+  color: grey;
+}
+
+/*body text*/
+body{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+p{
+  line-height: 30px;
+}
+
+ul{
+  list-style: square;
+  line-height: 30px;
+}
+
+/*links*/
+a{
+  text-decoration: none;
+  color: red;
+}
+
+a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+/*images*/
+video{
+  width: 100%;
+}
+
+image{
+  width: 100%;
+}
+.twoimages{
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 49%;
+}
+
+/*footer*/
+.footer{
+  background-color: grey;
+}

@@ -2,7 +2,7 @@
 <html>
  <head>
    <title>Quinne Farenwald</title>
-   <link rel="stylesheet" type="text/css" href="styles.css">
+   <link rel="stylesheet" type="text/css" href="styles/styles.css">
  </head>
  <body>
    <h2><a href="https://qfarenwald.github.io/developingdeveloper/">Q</a></h2>
@@ -14,38 +14,30 @@
      <div class="boxblue"></div>
   </div>
   <br>
-   <h3><span class="date">March 2019</span></h3>
-     <p>This blog is finally live. On the internet. Where potentially anyone can read it. Not freaking out...
+  <div>
+    <h3><span class="date">March 2019</span></h3>
+      <p>This blog is finally live. On the internet. Where potentially anyone can read it. Not freaking out...</p>
+      <p>I've had this blog hidden within the fold of my laptop since January. It is actually nice to finally share and show what I've been up to both mentally and phyically.</p>
+      <p>Below is the process I took to breathe life into these HTML files with the guiding help of another <a href="https://medium.com/@markevan100" target="_blank">mentor</a>. First, some quick 'why' to explain my process. The two main free and easy options to make sites live are <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> and <a href="https://www.heroku.com/" target="_blank">Heroku</a>. Apparently Heroku only wants code that is written in PHP and to post anything that is HTML/CSS based you have to try and trick Heroku. Seemed complicated. GitHub Pages loves HTML. Seemed like an easy choice since my blog is a few HTML file and one CSS file. When using one of these free methods to post a site, your URL will reflect some aspect of that site in the address as opposed to paying for your own custom domain name. For now, I don't mind my blog having a URL that states github.io in the address. Maybe one day I'll want to purchase and set up a custom URL. Often times this appears more professional. Since this blog is still in it's early stages, I think this is ok and free.</p>
+    <h4>The Process</h4>
+      <p>All the files for this blog were simply in a folder on my desktop. I built them in Atom and, as I mentioned earlier, they consist of a few HTML files and a CSS file.</p>
+      <p><b>First Step: Create a new repository in GitHub where your files will be stored online</b> Log into GitHub, go to 'Your Repositories', click 'New'. Simply name it and add a description for your private purposes. This name will show up in your URL, so make it count. Choose if you want the site to be public or private. I chose public. Then chose to initialize this repository with a README. I did not, but I can return and add a README in later. Click 'Create repository'.</p>
+      <p><b>Second Step: Move files from computer to new GitHub repository</b> I followed the prompt on my new GitHub repository, titled 'qfarenwald/developingdeveloper', code tab. There are three ways to link up GitHub with GitHub Pages if you've never done this kind of thing before, which I have not. I went with the first option, '... or create a new repository on the command line', because it was the only option that dealt with a new repository. The other two options dealt with existing repositories, which mine is not.</p>
+      <p>I used my terminal as follows:
+        <ul>
+          <li>I used 'cd' and 'ls' to navigate around my computer to my project folder that holds all my site files.</li>
+          <li>'git init' to initialized empty Git repository in /Users/quinne/Desktop/Dev Site/.git/.</li>
+          <li>'git add .' added all files in folder to be ready to commit.</li>
+          <li>'git commit -m "first commit"' committed files and made a note/message of my action.</li>
+          <li>GitHub prompted this next line to show my files where to commit too, 'git remote add origin https://github.com/qfarenwald/developingdeveloper.git'.</li>
+          <li>'git push -u origin master' pushed my files to the master branch.</li>
+        </ul>
       </p>
-      <p>I've had this blog hidden within the fold of my laptop since January. It is actually nice to finally share and show what I've been up to, both mentally and phyically.
-      </p>
-        <p>Below is the process I took to breathe life into these HTML files, with the guiding help of another <a href="https://medium.com/@markevan100" target="_blank">mentor</a>. First, some quick 'why' to explain my process. There are two main free and easy options to make sites live are <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> and <a href="https://www.heroku.com/" target="_blank">Heroku</a>. Apparently Heroku only wants code that is written in PHP, and to post anything that is HTML/CSS based, you have to try and trick Heroku. Seemed complicated. GitHub Pages loves HTML, so, seemed like an easy choice since my blog is a few HTML file and one CSS file. When using one of these free methods to post a site, your URL will reflect some aspect of that site in the address, as opposed to paying for your own custom domain name. For now, I don't mind my blog having a URL that states github.io in the address. Maybe one day I'll want to purchase and set up a custom URL, often times, this appears more professional. Since this blog is still in it's early stages, I think this is ok, and free.
-        </p>
-      <h4>The Process</h4>
-      <p>All the files for this blog were simply in a folder on my desktop. I built them in Atom and, as I mentioned earlier, they consist of a few HTML files and a CSS file.
-      </p>
-      <p><b>First Step: Create a new repository in GitHub where your files will be stored online</b> Log into GitHub, go to 'Your Repositories', click 'New'. Simply name it, add a description for your private purposes (this name will show up in your URL, so make it count), choose if you want the site to be public or private (I choose public), choose to initialize this repository with a README (I did not, whoops?), click 'Create repository'.
-        </p>
-      <p><b>Second Step: Move files from computer to new GitHub repository</b> I followed the prompt on my new GitHub repository, titled 'qfarenwald/developingdeveloper', code tab. There are 3 different ways offered to link up GitHub with GitHub Pages if you've never done this kind of thing before, which I have not. I went with the first option, '... or create a new repository on the command line', because it was the only option that dealt with a new repository. The other two options dealt with existing repositories, which mine is not.
-      </p>
-        <p> Then I used my terminal as follows:
-          <ul>
-            <li>I used 'cd' and 'ls' to navigate around my computer to my project folder that holds all my site files.</li>
-            <li>'git init' to initialized empty Git repository in /Users/quinne/Desktop/Dev Site/.git/.</li>
-            <li>'git add .' added all files in folder to be ready to commit.</li>
-            <li>'git commit -m "first commit"' committed files and made a note/message of my action.</li>
-            <li>GitHub prompted this next line to show my files where to commit too, 'git remote add origin https://github.com/qfarenwald/developingdeveloper.git'.</li>
-            <li>'git push -u origin master' pushed my files to the master branch.</li>
-            </ul>
-            </p>
-          <p>Refresh GitHub code tab, BOOM! Files appear in GitHub! Now to link it up to GetHub Pages to go live!
-            </p>
-      <p><b>Third Step: Link your GitHub account to go live with GitHub Pages</b> Go to <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Scroll down below the fold till the heading appears, "Ready to get started? Build your own site from scratch or generate one for your project." Toggle to 'Project Site' and follow the prompts that appear below. I started a theme from scratch. I skipped steps 1-3 because I already had files in GitHub. In GitHub Repository Settings of my new repository, I changed the 'Source' to 'master branch' as step 4 prompted. And boom! Site is live and web address is presented!
-      </p>
-      <p><b>Fourth Step:</b> Send to mentors, friends, and family! 
-        </p>
-    <p><a href="https://qfarenwald.github.io/developingdeveloper/">BACK</a>
-      </p>
+      <p>Refresh GitHub code tab, BOOM! Files appear in GitHub! Now to link it up to GetHub Pages to go live!</p>
+      <p><b>Third Step: Link your GitHub account to go live with GitHub Pages</b> Go to <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Scroll down below the fold till the heading appears, "Ready to get started? Build your own site from scratch or generate one for your project." Toggle to 'Project Site' and follow the prompts that appear below. I started a theme from scratch. I skipped steps 1-3 because I already had files in GitHub. In GitHub Repository Settings of my new repository, I changed the 'Source' to 'master branch' as step 4 prompted. And boom! Site is live and web address is presented!</p>
+      <p><b>Fourth Step:</b> Send to mentors, friends, and family!</p>
+      <p><a href="https://qfarenwald.github.io/developingdeveloper/">BACK</a></p>
+  </div>
 <!--add in details of skills used in this post-->
   </body>
 </html>
