@@ -20,7 +20,7 @@
       <p> Perhaps I have yet to grasp the exact reason behind using the terminal over navigating my Mac computer through its beautifully designed interface, but it does seem once you learn how to move around the terminal, that navigation becomes quick, utilitarian, and 'simple'. I say 'simple' because the terminal does have its own language that appears to require lots of memorization. The terminal seems to be the method by which most programmers interact with their machines... so I will try it out. I am going to do some more follow up research as to exactly why this is.</p>
       <p>I read 'A Mind for Numbers' to help restructure my cognitive process to be more effecient at learning coding. The author recommended the best way to retain new information is to not let more than 24 hrs go by without reviewing that information. Since I have found the terminal quite foriegn, I am going to attempt to interact with the terminal at least once a day in hope the commands and method of moving around my computer soon become second nature. About a week has passed since I've started using the terminal and its use has become familiar more quickly than I anticipated! I still review my notes, aka this entry, but every day more and more commands and processes stick.</p>
       <p> I've jumped into a fun project with some friends creating an app. I'll dive into the app in another entry. My friend required me to use the terminal to move around the app project and to push and pull files from github. Below is a list of the initial commands I've been using. Oh, but before we move on, it is important to know the structure of files and how the terminal navigates them. Files and folders are set up like a tree. For example, the desktop is like the trunk and each folder on the desktop top is its own branch, and any folders or files in those folders create even more branches off those initial branches, and so on. Knowing where exactly you are located in the terminal and how to move around is very important.</p>
-    <h4>Basic Commands</h4>
+    <h4>Basic Terminal Commands</h4>
       <ul>
         <li><b>mkdir</b> - makes directory </li>
         <li><b>ls</b> - lists the files in the current working directory </li>
@@ -29,8 +29,9 @@
         <li><b>cd [folder/file name] </b> - changes directory forward into the next specified directory</li>
         <li><b>atom .</b> - opens where you are in the atom program</li>
         <li><b>[command] t</b> - opens another terminal, this has been necessary to open and run my server</li>
+        <li><b>atom .</b> - opens atom files in whatever branch and directory you are currently located</li>
       </ul>
-    <h4>How to Move Files Around and Check Status</h4>
+    <h4>Basic Git Commands</h4>
       <ul>
         <li><b>git status</b> - shows if and what files have been changed</li>
         <li><b>git checkout</b> - change one branch to the other</li>
@@ -40,13 +41,13 @@
         <li><b>git stash</b> - saves unfinished changes that you can reapply anytime so you don't have to commit half-done work</li>
         <li><b>git init</b> - creates a new git repository</li>
       </ul>
-    <h4>Get Files to the Cloud</h4>
+    <h4>Get Files to Git</h4>
       <ul>
         <li><b>git add .</b> - adds all files where you are currently located in directory to be ready to commit</li>
         <li><b>git add [name of file]</b> - adds that exact file to be ready to commit</li>
         <li><b>git commit -m "[message]"</b> - commits file to be pushed up into the cloud, message is mandatory and should be addressed to the person(s) you are pushing the file too with some detail about what you are pushing, often times curse words exist in these messages and this handy little <a href="http://www.commitlogsfromlastnight.com/">program</a> captures all of them, haha</li>
         <li><b>git push</b> - pushes the file to the cloud, if it fails, just copy the text it prompts you to use and hit enter</li>
-        <li><b>git pull</b> - pulls the file down from the cloud</li>
+        <li><b>git pull</b> - pulls the file down from the cloud, always complete after pushing to the cloud to ensure local master files match the remote cloud master files, make sure you are in the master branch</li>
       </ul>
     <h4>Server Commands</h4>
       <ul>
