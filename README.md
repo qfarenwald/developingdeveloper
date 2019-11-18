@@ -8,9 +8,28 @@ My concept for this blog is to produce thoughtful technical posts along with vis
 
 - Articulate both technical and non technical challenges that arise in my journey.
 
+### Screenshots
+
+Homepage
+- The homepage will remain how I originally created the blog, with HTML and CSS... just the basic building blocks.
+
+![DD homepage](images/dd_homepage.png)
+
+Post Desktop
+- As shown in the blue text associated with each blog, as I learn, I will add features to each new blog post. Here I added a max width media query for the desktop view.
+
+![DD post desktop](images/dd_post-w-mq.png)
+
+Post Mobile
+- This is the same post and also includes media queries for a better mobile view.
+
+![DD post desktop](images/dd_post-mobile.png)
+
 ### Tech
 
 - Utilizes the basic building blocks of HTML and CSS.
+
+- Will add new tech as I learn, like media queries and JavaScript.
 
 ### Team (Solo)
 
